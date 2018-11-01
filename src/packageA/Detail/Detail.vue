@@ -20,7 +20,7 @@
             <i class="weui-loading"></i>
             <span class="weui-loadmore__tips">正在加载</span>
         </div>  -->
-        <div class="weui-tabbar wy-foot-menu">
+        <!-- <div class="weui-tabbar wy-foot-menu">
             <a href="" class="promotion-foot-menu-items">
                 <div class="weui-tabbar__icon"></div>
                 <p class="weui-tabbar__label">客服</p>
@@ -40,7 +40,7 @@
             <a href="" class="weui-tabbar__item red-color open-popup">
                 <p class="promotion-foot-menu-label">立即购买</p>
             </a>
-        </div>
+        </div> -->
     </div>
 </template>
 <script>
