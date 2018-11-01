@@ -1,4 +1,4 @@
-# shop
+# Supermarket
 
 > A Mpvue project
 
