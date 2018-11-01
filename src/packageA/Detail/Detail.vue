@@ -16,10 +16,10 @@
                 </div>
             </a>
         </div> 
-        <!-- <div class="weui-loadmore">
+        <div class="weui-loadmore">
             <i class="weui-loading"></i>
             <span class="weui-loadmore__tips">正在加载</span>
-        </div>  -->
+        </div>
         <!-- <div class="weui-tabbar wy-foot-menu">
             <a href="" class="promotion-foot-menu-items">
                 <div class="weui-tabbar__icon"></div>
@@ -41,17 +41,46 @@
                 <p class="promotion-foot-menu-label">立即购买</p>
             </a>
         </div> -->
+        <div class="weui_tab">
+    <div class="weui_tab_bd"></div>
+    <div class="weui_tabbar">
+        <a href="" class="weui_tabbar_item weui_bar_item_on">
+            <div class="weui_tabbar_icon">
+                <img src="" alt="">
+            </div>
+            <p class="weui_tabbar_label">客服</p>
+        </a>
+        <a href="" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon">
+                <img src="" alt="">
+            </div>
+            <p class="weui_tabbar_label">收藏</p>
+        </a>
+        <a href="" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon promotion-foot-menu-cart">
+                <img src="" alt="">
+            </div>
+            <p class="weui_tabbar_label">购物车</p>
+        </a>
+        <a href="" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon">
+                <img src="../../../static/img/hot.png" alt="">
+            </div>
+            <p class="weui_tabbar_label">立即购买</p>
+        </a>
+    </div>
+</div>
     </div>
 </template>
 <script>
 export default {
-    data (){
-        return {
-            list:"商品详情测试"
-        }
-    }
-}
+  data() {
+    return {
+      list: "商品详情测试"
+    };
+  }
+};
 </script>
-<style scoped>
 
+<style scoped>
 </style>
