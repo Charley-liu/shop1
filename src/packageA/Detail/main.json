@@ -1,0 +1,32 @@
+{
+    "navigationBarTitleText": "商品详情",
+    "config":{
+        "tabBar": {
+            "list": [{
+              "pagePath": "pages/index/index",
+              "iconPath": "./static/img/index.png",
+              "selectedIconPath":"",
+              "backgroundColor":"",
+              "text": "首页"
+            },{
+              "pagePath": "pages/list/list",
+              "iconPath": "./static/img/list.png",
+              "selectedIconPath":"",
+              "backgroundColor":"",
+              "text": "分类"
+            }, {
+              "pagePath": "pages/counter/counter",
+              "iconPath": "./static/img/shop.png",
+              "selectedIconPath":"",
+              "text": "购物车"
+            },{
+              "pagePath": "pages/user/user",
+              "iconPath": "./static/img/user.png",
+              "selectedIconPath":"",
+              "backgroundColor":"",
+              "text": "我的"
+            }]
+          }
+    }
+}
+  
