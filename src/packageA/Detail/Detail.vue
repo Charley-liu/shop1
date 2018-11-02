@@ -41,9 +41,9 @@
                 <p class="promotion-foot-menu-label">立即购买</p>
             </a>
         </div> -->
-        <div class="weui_tab">
+        
             <div class="weui_tabbar">
-                <a href="" class="weui_tabbar_item weui_bar_item_on">
+                <a href="" class="weui_tabbar_item">
                     <div class="weui_tabbar_icon">
                         <img src="../../../static/img/hot.png" alt="">
                     </div>
@@ -56,7 +56,7 @@
                     <p class="weui_tabbar_label">收藏</p>
                 </a>
                 <a href="" class="weui_tabbar_item">
-                    <div class="weui_tabbar_icon promotion-foot-menu-cart">
+                    <div class="weui_tabbar_icon">
                         <img src="../../../static/img/hot.png" alt="">
                     </div>
                     <p class="weui_tabbar_label">购物车</p>
@@ -68,7 +68,7 @@
                     <p class="weui_tabbar_label">立即购买</p>
                 </a>
             </div>
-        </div>
+        
     </div>
 </template>
 <script>
