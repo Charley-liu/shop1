@@ -111,12 +111,12 @@ export default {
         { key: 2, text: '热品推荐', val: 2 ,url:'',class:'hot_img'},
       ],
       grids:[
-        { href:'', url:'../../../static/img/life.png', val:'生活'},
-        { href:'', url:'../../../static/img/servise.png', val:'服务'},
-        { href:'', url:'../../../static/img/dayly.png', val:'日常'},
-        { href:'', url:'../../../static/img/gocar.png', val:'出行'},
-        { href:'', url:'../../../static/img/phone.png', val:'通信'},
-        { href:'', url:'../../../static/img/mony.png', val:'理财'}
+        { href:'', url:'../../static/img/life.png', val:'生活'},
+        { href:'', url:'../../static/img/servise.png', val:'服务'},
+        { href:'', url:'../../static/img/dayly.png', val:'日常'},
+        { href:'', url:'../../static/img/gocar.png', val:'出行'},
+        { href:'', url:'../../static/img/phone.png', val:'通信'},
+        { href:'', url:'../../static/img/mony.png', val:'理财'}
       ]
     }
   },

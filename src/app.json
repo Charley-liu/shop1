@@ -7,7 +7,7 @@
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#ddd",
-    "navigationBarTitleText": "桂祥超市",
+    "navigationBarTitleText": "电商测试",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true,
     "navigationStyle":"default"
