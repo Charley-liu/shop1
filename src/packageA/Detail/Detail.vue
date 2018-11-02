@@ -46,19 +46,20 @@
     <div class="weui_tabbar">
         <a href="" class="weui_tabbar_item weui_bar_item_on">
             <div class="weui_tabbar_icon">
-                <img src="" alt="">
+                <img src="../../../static/img/hot.png" alt="">
             </div>
             <p class="weui_tabbar_label">客服</p>
         </a>
         <a href="" class="weui_tabbar_item">
             <div class="weui_tabbar_icon">
-                <img src="" alt="">
+                <img src="../../../static/img/hot.png" alt="">
             </div>
             <p class="weui_tabbar_label">收藏</p>
         </a>
         <a href="" class="weui_tabbar_item">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;"></span>
             <div class="weui_tabbar_icon promotion-foot-menu-cart">
-                <img src="" alt="">
+                <img src="../../../static/img/hot.png" alt="">
             </div>
             <p class="weui_tabbar_label">购物车</p>
         </a>
