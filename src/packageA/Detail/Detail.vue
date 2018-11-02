@@ -42,38 +42,22 @@
             </a>
         </div> -->
         <div class="weui_tab">
-<<<<<<< HEAD
             <div class="weui_tabbar">
                 <a href="" class="weui_tabbar_item weui_bar_item_on">
                     <div class="weui_tabbar_icon">
                         <img src="../../../static/img/hot.png" alt="">
-=======
-            <div class="weui_tab_bd"></div>
-            <div class="weui_tabbar">
-                <a href="" class="weui_tabbar_item weui_bar_item_on">
-                    <div class="weui_tabbar_icon">
-                        <img src="" alt="">
->>>>>>> home
                     </div>
                     <p class="weui_tabbar_label">客服</p>
                 </a>
                 <a href="" class="weui_tabbar_item">
                     <div class="weui_tabbar_icon">
-<<<<<<< HEAD
                         <img src="../../../static/img/hot.png" alt="">
-=======
-                        <img src="" alt="">
->>>>>>> home
                     </div>
                     <p class="weui_tabbar_label">收藏</p>
                 </a>
                 <a href="" class="weui_tabbar_item">
                     <div class="weui_tabbar_icon promotion-foot-menu-cart">
-<<<<<<< HEAD
                         <img src="../../../static/img/hot.png" alt="">
-=======
-                        <img src="" alt="">
->>>>>>> home
                     </div>
                     <p class="weui_tabbar_label">购物车</p>
                 </a>
