@@ -36,7 +36,9 @@
             </div>
         </div>
         <div class="weui-actionsheet__content">
-            <div class="content_list"></div>
+            <ul>
+                <li class="content_list" v-for="list_i in list" :key="list_i.key">{{list_i.name}}</li>
+            </ul>
             <!-- <div class="content_right"></div> -->
         </div>
     </div>
@@ -56,7 +58,14 @@ export default {
         { name: "娱乐", key: 6, val: 1 },
         { name: "服务", key: 7, val: 1 },
         { name: "商务", key: 8, val: 1 },
-        { name: "金融", key: 9, val: 1 }
+        { name: "金融", key: 9, val: 1 },
+        { name: "金融", key: 10, val: 1 },
+        { name: "金融", key: 11, val: 1 },
+        { name: "金融", key: 12, val: 1 },
+        { name: "金融", key: 13, val: 1 },
+        { name: "金融", key: 14, val: 1 },
+        { name: "金融", key: 15, val: 1 },
+        { name: "金融", key: 16, val: 1 }
       ]
     };
   },
@@ -79,6 +88,11 @@ export default {
 };
 </script>
 <style scoped>
+.page__bd{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
 .list_content {
   background-color: #ddd;
   height: 100%;
@@ -88,23 +102,30 @@ export default {
   height: 100%;
   width: 30%;
   float: left;
-  background-color:blue;
+  position: fixed;
 }
 .nav_lists {
   height: 100%;
-  width: 100%;
-  border-right: 1px solid rgba(0, 0, 0, 0);
+  overflow-y: scroll;
+  width: 99%;
+  margin-top: 48px;
 }
 .weui-actionsheet__content{
     width: 70%;
     height: 100%;
-    background-color:bisque;
     float: right;
+    margin-top: 48px;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
 }
 .content_list{
-    width: 50%;
+    width: 49.5%;
     height: 100px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
     background-color: azure;
+    float: left;
+    
 }
 .content_right{
     height: 100%;
