@@ -16,7 +16,7 @@
                     <text class="sku-price">￥</text>
                     <text class="sku-price">{{item.price}}</text>
                     <view class="sku">
-                      <template :is="quantity" data="" />
+                      <template :is="quantity" />
                     </view>
                   </view>
 
