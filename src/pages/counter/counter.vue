@@ -1,16 +1,12 @@
 <template>
   <div class="counter-warp">
-    <div class="shop_car_title">
-      <span class="shop_car_titlename margin-left">微商城</span><span class="shop_car_titleoption margin-right">完成</span>
-    </div>
-    
     <div class="shop_car_list scroll" scroll-y="true">
       <ul class="shop_car_content">
         <li>
            <view class="separate"></view>
-            <view v-for="(item,index) in carts" :key="item.price">
+            <view v-for="(item,index) in carts" :key="item.price" class="border_bottom">
               <view class="cart_container">
-                <image class="item-select" bindtap="switchSelect" :index="index" :data-id="index" :src="item.isSelect?'../../../static/img/select.png':'../../../static/img/no-select.png'" />
+                <image class="item-select" bindtap="switchSelect" :index="index" :data-id="index" :src="item.isSelect?'../../static/img/select.png':'../../static/img/no-select.png'" />
 
                 <img class="item-image" :src="item.pic"/>
 
@@ -20,7 +16,7 @@
                     <text class="sku-price">￥</text>
                     <text class="sku-price">{{item.price}}</text>
                     <view class="sku">
-                      <template is="quantity" data="" />
+                      <template :is="quantity" data="" />
                     </view>
                   </view>
 
@@ -30,19 +26,13 @@
             </view>
         </li>
       </ul>
-      <p class="shop_car_bottom"></p>
+      <!-- <p class="shop_car_bottom"></p> -->
     </div>
-    <!-- <p>Vuex counter：{{ count }}</p>
-    <p>
-      <button @click="increment">+</button>
-      <button @click="decrement">-</button>
-    </p> -->
-    
     <view class="bottom_total">
       <view class="bottom_line"></view>
 
       <view class="row">
-        <image class="item-allselect" bindtap="allSelect" :src="isAllSelect?'../../../static/img/select.png':'../../../static/img/no-select.png'"/>
+        <image class="item-allselect" bindtap="allSelect" :src="isAllSelect?'../../static/img/select.png':'../../static/img/no-select.png'"/>
         <text class="small_text">全选</text>
         <text>合计:￥ </text>
         <text class="price">{{totalMoney}}</text>
@@ -230,36 +220,8 @@ export default {
 .counter-warp {
   text-align: center;
 }
-.home {
-  display: inline-block;
-  margin: 100px auto;
-  padding: 5px 10px;
-  color: blue;
-  border: 1px solid blue;
-}
 .counter-warp{
   background-color: #f8f8f8;
-}
-.shop_car_title{
-  height:40px;
-  position: fixed;
-  top: 0;
-}
-.shop_car_titlename{
-  float: left;
-}
-.shop_car_titleoption{
-  float: right;
-}
-.margin-left{
-  margin-left:15px;
-  font: 0.75em sans-serif;
-  line-height: 40px;
-}
-.margin-right{
-  margin-right: 15px;
-  font: 0.75em sans-serif;
-  line-height: 40px;
 }
 /* 商品列表 */
 .shop_car_list{
@@ -268,10 +230,11 @@ export default {
   background-color: #ffff;
 }
 .shop_car_content{
-  height: 100%;
+  height: 110%;
 }
 .shop_car_content li{
   border-bottom: 1px solid #f8f8f8;
+  margin-bottom: 60px;
 }
 .shop_car_bottom{
   height: 30px;
@@ -285,7 +248,7 @@ export default {
   flex-direction: row;
 }
 .scroll {
-  margin-bottom: 120rpx;
+  margin-bottom: 60px;
 }
 .column {
   display: flex;
@@ -363,5 +326,8 @@ button {
   width: 30%;
   height: 120rpx;
   line-height: 120rpx;
+}
+.border_bottom{
+  border-bottom: 1px solid #ddd;
 }
 </style>

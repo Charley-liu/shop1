@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="weui-actionsheet__menu">
-            <div class="nav_lists weui-cells">
+            <div class="nav_lists weui-cells" >
                 <a class="weui-cell weui-cell_access" v-for="list_data in list" :key="list_data.key">
                     <div class="weui-cell__bd">
                         <p>{{list_data.name}}</p>
@@ -131,5 +131,8 @@ export default {
     height: 100%;
     width: 50%;
     background-color: aquamarine
+}
+.scroll {
+  margin-bottom: 60px;
 }
 </style>
